@@ -87,7 +87,105 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/********BASE STYLES**********/
 
+html {
+  background-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  width: 100%;
+}
+
+body {
+  font-size: 1em;
+  text-align: center;
+  color: hsl(303, 10%, 53%);
+}
+
+h1 {
+  font-size: 2em;
+  color: hsl(300, 43%, 22%);
+}
+
+h2 {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1em;
+  color: hsl(300, 43%, 22%);
+}
+
+h4 {
+  color: hsl(0, 0%, 100%);
+}
+
+h4 span {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+
+p {
+  color: hsl(300, 24%, 96%);
+  font-weight: 400;
+  text-align: left;
+}
+
+#top-background {
+    background-image: url("../images/bg-pattern-top-mobile.svg");
+}
+
+
+
+/********HEADER**********/
+
+.main-header {
+margin: 60px 50px 30px 50px;
+}
+
+.sub-header {
+  margin: 10px 20px 20px 20px;
+}
+
+
+
+/*********MAIN**********/
+
+/*****STAR BOXES*********/
+
+.star-box {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px 10px;
+  padding: 10px 20px;
+  margin: 20px 20px;
+}
+
+.star-box img {
+  padding: 5px 5px;
+}
+
+
+
+/*****REVIEWS*******/
+
+.review-box {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px 10px;
+  padding: 20px 30px;
+  margin: 20px 20px;
+}
+
+.review-box img {
+  padding: 10px 20px 10px 0;
+  border-radius: 50%;
+}
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 /* ==========================================================================
    Helper classes
